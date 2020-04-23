@@ -29,6 +29,13 @@ docker run -it --gpus all -p 80:8888 \
   -v $PWD/externalData/resources/:/app/normalization/resources/ \
   bern-docker
 ```
+### Examples
+Usage
+PMID(s) (HTTP GET)
+- http://\<YOUR_SERVER_ADDRESS>:\<PORT>/?pmid=\<a PMID or comma seperate PMIDs>&format=\<json or pubtator>
+- Example: http://localhost/?pmid=30429607&format=json&indent=true
+- Example: http://localhost/?pmid=30429607&format=pubtator
+- Example: http://localhost/?pmid=30429607,29446767&format=json&indent=true
 
 ## License
 ```
