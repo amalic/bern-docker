@@ -9,7 +9,10 @@ services:
     volumes:
       - ./externalData/GNormPlusJava/Dictionary/:/app/GNormPlusJava/Dictionary/
       - ./externalData/tmVarJava/Database:/app/tmVarJava/Database
-      - ./externalData/biobert_ner_models?:/app/bern/biobert_ner/
+      - ./externalData/biobert_ner_models/pretrainedBERT:/app/biobert_ner/pretrainedBERT/
+      - ./externalData/biobert_ner_models/conf/:/app/biobert_ner/conf/
+      - ./externalData/biobert_ner_models/tmp/:/app/biobert_ner/tmp/
+      - ./externalData/biobert_ner_models/result/:/app/biobert_ner/result/
       - ./externalData/data/:/app/normalization/data/
       - ./externalData/resources/:/app/normalization/resources/
     networks:
