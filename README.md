@@ -9,7 +9,7 @@
   - [data.zip](https://docs.google.com/uc?export=download&id=1NqgG3zJzopG2IqG-0g1o6fH0xVpO4PPN)
   - [resources.zip](https://docs.google.com/uc?export=download&id=1uU1U6UORqr3l_YYQ5TXeazpLrpeg_OcP)
 
-Download and extract all archives into externalData folder within this repository by running 
+Download and extract all archives into externalData folder within this repository by running. *You might want to get a coffee or learn a new programming language, depending on your internet connection.*
 ```
 sh prerequisites.sh
 ```
