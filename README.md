@@ -8,12 +8,12 @@ git clone --recursive https://github.com/amalic/bern-docker.git
 - 32 GB Ram (see [BERN project README](https://github.com/dmis-lab/bern/blob/master/README.md))
 - [NVidia Docker](https://github.com/NVIDIA/nvidia-docker)
 - Those files:
-  - [GNormPlus.zip](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNormPlus/GNormPlusJava.zip)
-  - tmVarJava.zip `ftp://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/tmVar2/tmVarJava.zip`
-  - [CRF++-0.58.tar.gz](https://drive.google.com/uc?id=0B4y35FiV1wh7QVR6VXJ5dWExSTQ)
-  - [biobert_ner_models.zip](https://docs.google.com/uc?export=download&id=1sSVEqvMBVLj1RJmlQDhRKyt_oe-wc5LK)
-  - [data.zip](https://docs.google.com/uc?export=download&id=1NqgG3zJzopG2IqG-0g1o6fH0xVpO4PPN)
-  - [resources.zip](https://docs.google.com/uc?export=download&id=1uU1U6UORqr3l_YYQ5TXeazpLrpeg_OcP)
+  - [GNormPlus.zip](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNormPlus/GNormPlusJava.zip) (~4GB)
+  - tmVarJava.zip `ftp://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/tmVar2/tmVarJava.zip` (~40GB)
+  - [CRF++-0.58.tar.gz](https://drive.google.com/uc?id=0B4y35FiV1wh7QVR6VXJ5dWExSTQ) (~4 MB)
+  - [biobert_ner_models.zip](https://docs.google.com/uc?export=download&id=1sSVEqvMBVLj1RJmlQDhRKyt_oe-wc5LK) (~7GB)
+  - [data.zip](https://docs.google.com/uc?export=download&id=1NqgG3zJzopG2IqG-0g1o6fH0xVpO4PPN) (~750 MB)
+  - [resources.zip](https://docs.google.com/uc?export=download&id=1uU1U6UORqr3l_YYQ5TXeazpLrpeg_OcP) (~3 GB)
 
 Download and extract all archives into externalData folder within this repository by running. 
 ```
