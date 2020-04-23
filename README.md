@@ -1,6 +1,6 @@
 ## License
 ```
-bern-docker (c) by Alexander Malic (~190 GB disk space)
+bern-docker (c) by Alexander Malic (\~190 GB disk space)
 
 bern-docker is licensed under a
 Creative Commons Attribution 4.0 International License.
