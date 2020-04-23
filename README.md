@@ -5,6 +5,7 @@ git clone --recursive https://github.com/amalic/bern-docker.git
 
 ## Prerequisites
 - Lot's of disk space (~60 GB disk space)
+- 32 GB Ram (see [BERN project README](https://github.com/dmis-lab/bern/blob/master/README.md))
 - [NVidia Docker](https://github.com/NVIDIA/nvidia-docker)
 - Those files:
   - [GNormPlus.zip](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNormPlus/GNormPlusJava.zip)
