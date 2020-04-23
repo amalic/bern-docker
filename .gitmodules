@@ -1,0 +1,3 @@
+[submodule "bern"]
+	path = bern
+	url = https://github.com/amalic/bern.git

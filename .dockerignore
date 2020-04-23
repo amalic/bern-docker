@@ -1,0 +1,9 @@
+*.zip
+*.tar.gz
+externalData/GNormPlusJava/Dictionary/
+externalData/GNormPlusJava/CRF/
+externalData/tmVarJava/Database/
+externalData/tmVarJava/CRF/
+externalData/data/
+externalData/biobert_ner_models/
+externalData/resources/
