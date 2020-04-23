@@ -42,7 +42,8 @@ if [ ! -f biobert_ner_models.zip ]; then
   if [ ! -d biobert_ner_models ]; then
     wget -O biobert_ner_models.zip  --load-cookies cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1sSVEqvMBVLj1RJmlQDhRKyt_oe-wc5LK' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1sSVEqvMBVLj1RJmlQDhRKyt_oe-wc5LK"
     rm -rf cookies.txt
-    unzip biobert_ner_models.zip
+    mkdir ./biobert_ner_models
+    unzip biobert_ner_models.zip -d ./biobert_ner_models
     rm biobert_ner_models.zip
   fi
 fi
