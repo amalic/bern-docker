@@ -1,3 +1,13 @@
+## License
+```
+bern-docker (c) by Alexander Malic
+
+bern-docker is licensed under a
+Creative Commons Attribution 4.0 International License.
+
+You should have received a copy of the license along with this
+work. If not, see <http://creativecommons.org/licenses/by/4.0/>.
+```
 ## Prerequisites
 - Lot's of disk space
 - [NVidia Docker](https://github.com/NVIDIA/nvidia-docker)
@@ -37,13 +47,26 @@ PMID(s) (HTTP GET)
 - Example: http://localhost/?pmid=30429607&format=pubtator
 - Example: http://localhost/?pmid=30429607,29446767&format=json&indent=true
 
-## License
+### Citation of original work
 ```
-bern-docker (c) by Alexander Malic
+@article{kim2019neural,
+  title={A Neural Named Entity Recognition and Multi-Type Normalization Tool for Biomedical Text Mining},
+  author={Kim, Donghyeon and Lee, Jinhyuk and So, Chan Ho and Jeon, Hwisang and Jeong, Minbyul and Choi, Yonghwa and Yoon, Wonjin and Sung, Mujeen and and Kang, Jaewoo},
+  journal={IEEE Access},
+  volume={7},
+  pages={73729--73740},
+  year={2019},
+  publisher={IEEE}
+}
 
-bern-docker is licensed under a
-Creative Commons Attribution 4.0 International License.
-
-You should have received a copy of the license along with this
-work. If not, see <http://creativecommons.org/licenses/by/4.0/>.
+@article{10.1093/bioinformatics/btz682,
+    author = {Lee, Jinhyuk and Yoon, Wonjin and Kim, Sungdong and Kim, Donghyeon and Kim, Sunkyu and So, Chan Ho and Kang, Jaewoo},
+    title = "{BioBERT: a pre-trained biomedical language representation model for biomedical text mining}",
+    journal = {Bioinformatics},
+    year = {2019},
+    month = {09},
+    issn = {1367-4803},
+    doi = {10.1093/bioinformatics/btz682},
+    url = {https://doi.org/10.1093/bioinformatics/btz682},
+}
 ```
