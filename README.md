@@ -22,7 +22,7 @@ docker build -t bern-docker .
 
 ## Run
 ```
-docker run -it --gpus all -p 80:8888 \
+docker run --name bern-docker --log-opt max-size=10m -d --gpus all -p 80:8888 \
   -v $PWD/externalData/GNormPlusJava/Dictionary/:/app/GNormPlusJava/Dictionary/ \
   -v $PWD/externalData/tmVarJava/Database:/app/tmVarJava/Database \
   -v $PWD/externalData/biobert_ner_models/pretrainedBERT:/app/biobert_ner/pretrainedBERT/ \
