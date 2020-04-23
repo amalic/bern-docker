@@ -9,7 +9,7 @@ You should have received a copy of the license along with this
 work. If not, see <http://creativecommons.org/licenses/by/4.0/>.
 ```
 ## Prerequisites
-- Lot's of disk space (~190 GB disk space)
+- Lot's of disk space (~60 GB disk space)
 - [NVidia Docker](https://github.com/NVIDIA/nvidia-docker)
 - Download following files first:
   - [GNormPlus.zip](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNormPlus/GNormPlusJava.zip)
