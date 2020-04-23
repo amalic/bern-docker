@@ -21,9 +21,12 @@ docker build -t bern-docker
 docker run -it --gpus all -p 80:8888 \
   -v $PWD/externalData/GNormPlusJava/Dictionary/:/app/GNormPlusJava/Dictionary/ \
   -v $PWD/externalData/tmVarJava/Database:/app/tmVarJava/Database \
-  -v $PWD/externalData/biobert_ner_models/:/app/bern/biobert_ner/ \
+  -v $PWD/externalData/biobert_ner_models/pretrainedBERT:/app/biobert_ner/pretrainedBERT/ \
+  -v $PWD/externalData/biobert_ner_models/conf/:/app/biobert_ner/conf/ \
+  -v $PWD/externalData/biobert_ner_models/tmp/:/app/biobert_ner/tmp/ \
+  -v $PWD/externalData/biobert_ner_models/result/:/app/biobert_ner/result/ \
   -v $PWD/externalData/data/:/app/normalization/data/ \
-  -v $PWD/externalData/resources/:/app/normalization/resources/ \
+  -v $PWD/externalData/resources/:/app/normalization/resources/ 
   bern-docker
 ```
 
