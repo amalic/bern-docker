@@ -21,9 +21,11 @@ work. If not, see <http://creativecommons.org/licenses/by/4.0/>.
 
 Extract all archives into externalData folder within this repository.
 
+or simply run `sh prerequisites.sh`
+
 ## Build
 ```
-docker build -t bern-docker
+docker build -t bern-docker .
 ```
 
 ## Run

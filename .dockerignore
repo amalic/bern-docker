@@ -1,3 +1,6 @@
+Dockerfile
+docker-compose.yaml
+prerequisites.sh
 *.zip
 *.tar.gz
 externalData/GNormPlusJava/Dictionary/
