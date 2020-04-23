@@ -19,7 +19,7 @@ work. If not, see <http://creativecommons.org/licenses/by/4.0/>.
   - [data.zip](https://docs.google.com/uc?export=download&id=1NqgG3zJzopG2IqG-0g1o6fH0xVpO4PPN)
   - [resources.zip](https://docs.google.com/uc?export=download&id=1uU1U6UORqr3l_YYQ5TXeazpLrpeg_OcP)
 
-Extract all archives into externalData folder, and delete the archives if not needed any more for other purposes.
+Extract all archives into externalData folder within this repository.
 
 ## Build
 ```
