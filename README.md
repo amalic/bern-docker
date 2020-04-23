@@ -1,3 +1,8 @@
+## Checkout the code
+```
+git clone --recursive https://github.com/amalic/bern-docker.git
+```
+
 ## Prerequisites
 - Lot's of disk space (~60 GB disk space)
 - [NVidia Docker](https://github.com/NVIDIA/nvidia-docker)
