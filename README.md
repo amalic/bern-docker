@@ -1,4 +1,4 @@
-## Checkout the code
+## Get the code
 ```
 git clone --recursive https://github.com/amalic/bern-docker.git
 ```
