@@ -3,7 +3,7 @@
 - [NVidia Docker](https://github.com/NVIDIA/nvidia-docker)
 - Download following files first:
   - [GNormPlus.zip](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNormPlus/GNormPlusJava.zip)
-  - [tmVarJava.zip](ftp://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/tmVar2/tmVarJava.zip)
+  - tmVarJava.zip: ftp://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/tmVar2/tmVarJava.zip
   - [CRF++-0.58.tar.gz](https://drive.google.com/uc?id=0B4y35FiV1wh7QVR6VXJ5dWExSTQ)
   - [biobert_ner_models.zip](https://docs.google.com/uc?export=download&id=1sSVEqvMBVLj1RJmlQDhRKyt_oe-wc5LK)
   - [data.zip](https://docs.google.com/uc?export=download&id=1NqgG3zJzopG2IqG-0g1o6fH0xVpO4PPN)
