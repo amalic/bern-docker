@@ -26,7 +26,7 @@ docker run -it --gpus all -p 80:8888 \
   -v $PWD/externalData/biobert_ner_models/tmp/:/app/biobert_ner/tmp/ \
   -v $PWD/externalData/biobert_ner_models/result/:/app/biobert_ner/result/ \
   -v $PWD/externalData/data/:/app/normalization/data/ \
-  -v $PWD/externalData/resources/:/app/normalization/resources/ 
+  -v $PWD/externalData/resources/:/app/normalization/resources/ \
   bern-docker
 ```
 
