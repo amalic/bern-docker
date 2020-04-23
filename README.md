@@ -26,3 +26,14 @@ docker run -it --gpus all -p 80:8888 \
   -v $PWD/externalData/resources/:/app/normalization/resources/ \
   bern-docker
 ```
+
+## LICENSE
+```
+bern-docker (c) by Alexander Malic
+
+bern-docker is licensed under a
+Creative Commons Attribution 4.0 International License.
+
+You should have received a copy of the license along with this
+work. If not, see <http://creativecommons.org/licenses/by/4.0/>.
+```
